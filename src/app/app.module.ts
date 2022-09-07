@@ -9,6 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { SignUPComponent } from './sign-up/sign-up.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,11 +17,13 @@ import { SignUPComponent } from './sign-up/sign-up.component';
     HeaderComponent,
     HomeComponent,
     FooterComponent,
-    SignUPComponent
+    SignUPComponent, 
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

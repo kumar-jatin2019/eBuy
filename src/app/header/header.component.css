@@ -35,9 +35,7 @@ input{
     outline: 0;
     
 }
-.Flipkart{
-    cursor: pointer;
-}
+
 
 button{
     cursor: pointer;
@@ -85,7 +83,7 @@ button{
 
 }
 .nav{
-    margin: 0 20px;
+    margin: 0 10px;
      align-content: center;
     display: flex;
 }
@@ -99,6 +97,15 @@ button{
     background-color: #2874f0;
     color: white;
 
-
+}
+.help{
+    font-size: 16px;
+    font-weight: 500;
+    position: absolute;
+    padding: 5px;
+    margin-left: 30px;
+    color: white;
+    background-color: #2874f0;
+    cursor: pointer;
 
 }
