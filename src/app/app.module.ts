@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { SignUPComponent } from './sign-up/sign-up.component';
+import { CartComponent } from './cart/cart.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { SignUPComponent } from './sign-up/sign-up.component';
     HeaderComponent,
     HomeComponent,
     FooterComponent,
-    SignUPComponent, 
+    SignUPComponent,
+    CartComponent, 
     
   ],
   imports: [
