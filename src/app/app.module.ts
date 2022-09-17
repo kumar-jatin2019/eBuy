@@ -9,6 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { SignUPComponent } from './sign-up/sign-up.component';
 import { CartComponent } from './cart/cart.component';
+import { ProductInfoComponent } from './product-info/product-info.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { CartComponent } from './cart/cart.component';
     HomeComponent,
     FooterComponent,
     SignUPComponent,
-    CartComponent, 
+    CartComponent,
+    ProductInfoComponent, 
     
   ],
   imports: [
